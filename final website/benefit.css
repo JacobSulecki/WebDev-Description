@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+html, body{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+    margin-top: 0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 2rem;
+    color: rgb(145, 144, 144);
+}
+
+nav a:hover{
+    color: rgb(105, 103, 103);
+    text-decoration: underline;
+}
+
+.nav a:visited {
+    text-decoration: none;
+    color: rgb(145, 144, 144);
+}
+
+.header{
+    color: rgb(0, 0, 0);
+    font-size: 3.5rem;
+    background-image: url(img/game-designer-salary.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    color: rgb(145, 144, 144);
+    max-width: 60ch;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 1rem;
+    text-align: center;
+    vertical-align: center;
+    font-size: 1.25rem;
+}
